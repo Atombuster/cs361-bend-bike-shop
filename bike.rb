@@ -15,4 +15,8 @@ class Bike
     @luggage = MyLuggage(self, extra_items)
   end
 
+  def item_count
+   return @luggage.item_count
+  end
+
 end

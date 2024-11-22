@@ -22,5 +22,8 @@ class Luggage
   def weight
     self.items.size * 10
   end
+  def item_count
+    return @items.count
+  end
 
 end
