@@ -1,3 +1,8 @@
+def MyLuggage(a,b, c = Luggage::DEFAULT_MAX_CAPACITY)
+  return Luggage.new(c,b,a)
+end
+
+
 class Luggage
 
   DEFAULT_MAX_CAPACITY = 10
